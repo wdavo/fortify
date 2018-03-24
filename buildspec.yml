@@ -9,6 +9,7 @@ phases:
       - yes | apt-get install libpcsclite1
       #- npm install pcsclite
       - yes | apt-get install pcscd
+      - yes | apt-get install nodejs-legacy
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
