@@ -5,6 +5,7 @@ phases:
     commands:
       - apt-get update
       - yes | apt-get install g++-multilib
+      - yes | apt-get install pcsclite-dev
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
