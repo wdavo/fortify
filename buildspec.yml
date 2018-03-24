@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - apt-get update
-      - apt-get install g++-multilib
+      - yes | apt-get install g++-multilib
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
