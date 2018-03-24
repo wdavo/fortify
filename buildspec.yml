@@ -8,7 +8,7 @@ phases:
       - yes | apt-get install libpcsclite-dev
       - yes | apt-get install libpcsclite1
       #- npm install pcsclite
-      - yes | apt-get install pcsd
+      - yes | apt-get install pcscd
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
