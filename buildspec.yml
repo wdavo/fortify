@@ -13,7 +13,7 @@ phases:
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install
+      - npm install --verbose
   build:
     commands:
     - npm run build:package
