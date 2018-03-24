@@ -7,7 +7,7 @@ phases:
       - yes | apt-get install g++-multilib
       - yes | apt-get install libpcsclite-dev
       - yes | apt-get install libpcsclite1
-      - npm install pcsclite
+      #- npm install pcsclite
       - yes | apt-get install pcsd
   pre_build:
     commands:
